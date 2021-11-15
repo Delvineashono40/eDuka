@@ -1,0 +1,22 @@
+{
+  "name": "eduka",
+  "version": "1.0.0",
+  "description": "An online shop that makes it flexible for anyone to purchase products from anywhere.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delvineashono40/eDuka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delvineashono40/eDuka/issues"
+  },
+  "homepage": "https://github.com/Delvineashono40/eDuka#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
