@@ -11,6 +11,8 @@ app.get("/Shop", (req, re) => {
     res.sendFile(path.join(__dirname+ '/Shop.html'))
 })
 
+app.get()
+
 app.listen(port, () => {
     console.log("listening")
 })
