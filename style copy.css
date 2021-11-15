@@ -1,0 +1,205 @@
+/* navbar*/
+
+.navbar{
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+    
+
+}
+
+
+.navbar h2{
+    color: rgb(0, 128, 90);
+}
+
+.navbar-light .navbar-nav .nav-link{
+padding: 0px;
+padding-left: 20px;
+padding-right: 20px;
+color: black;
+transition: 0.3s ease;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: green;
+}
+
+.navbar i{
+font-size: 1.3rem;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 7px;
+padding-right: 7px;
+cursor: pointer;
+font-weight: 500;
+transition: 0.3s ease;
+}
+
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+    
+
+}
+
+#bar:hover,
+#bar.active{
+    color:#fff;
+
+}
+
+@media only screen and (max-width: 991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+        background-color: #fb774b;
+    }
+
+    #navbarSupportedContent > ul{
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+    
+
+
+/* Mobile Nav */
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+ .navbar i:hover{
+     color: coral;
+ }
+
+
+
+ /* products section */
+
+
+#featured2 .product{
+    padding-top: 1px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#featured2 .product img{
+    transition: 0.3s all;
+}  
+
+
+#featured2 .product:hover img{
+    opacity: 0.7;
+}
+
+
+#featured2 .product .buy-button{
+     background-color: green;
+     transform: translateY(20px);
+     opacity: 0;
+     transition: 0.3s all;
+}
+
+#featured2 .product:hover .buy-button{
+    transform: translateY(0);
+    opacity: 1;
+   
+}
+
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+
+.star{
+    padding: 10px 0;
+}
+
+
+
+
+ /* footer */
+
+
+
+ footer{
+    background-color:rgb(8, 48, 2);
+    padding-bottom: 50px;
+
+}
+
+footer h6{
+
+    color: #d8d8d8;
+    font-weight: 700;
+    
+}
+
+footer p{
+    color: #999;
+    font-weight: 700;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+
+}
+
+
+footer li a:hover{
+    color: #d8d8d8;
+    
+}
+
+.footer-1 p:hover{
+    color: #d8d8d8;
+    text-decoration: underline;
+}
+
+
+.copyright a{
+
+   
+    padding-left: 40px;
+    transition: 00.3s ease;
+}
+
+
+
+.copyright a:hover{
+
+    color: coral;
+}
+
+
+
+.footer-1 h5{
+    color: #d8d8d8;
+}
+
+
+
+
+
+

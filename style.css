@@ -1,0 +1,250 @@
+
+*navbar*
+
+
+.navbar{
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+    background: #fb774b;
+}
+
+.navbar h2{
+
+color: rgb(0, 128, 90);
+}
+
+.navbar-light .navbar-nav .nav-link{
+padding: 0px;
+padding-left: 20px;
+padding-right: 20px;
+color: black;
+transition: 0.3s ease;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: green;
+}
+
+.navbar i{
+font-size: 1.3rem;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 7px;
+padding-right: 7px;
+cursor: pointer;
+font-weight: 500;
+transition: 0.3s ease;
+}
+
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+    
+
+}
+
+#bar:hover,
+#bar.active{
+    color: #fff;
+
+}
+
+@media only screen and (max-width: 991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+        background-color: #fb774b;
+    }
+
+    #navbarSupportedContent > ul{
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+    
+
+
+/* Mobile Nav */
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+ .navbar i:hover{
+     color: coral;
+ }
+
+ #Home{
+     background-image: url(images/fa.jpg);
+     
+     width: 100%;
+     height: 100vh;
+     background-size: cover;
+     background-position: top 60px center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding-top: 200px;
+     padding-right: 200px;
+ }
+
+
+
+ #Home h3{
+     color: #fff;
+     font-weight: 700;
+     font-size: 30px;
+ }
+
+ #Home h1{
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 700;
+     font-size: 40px;
+ }
+
+
+ #Home h5{
+    color: #fff;
+
+}
+
+
+
+#Home p{
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+ 
+
+ button{
+     font-size: 0.8rem;
+     font-weight: 700;
+     outline: none;
+     border: none;
+     background-color:black;
+     color: aliceblue;
+     padding-top: 13px;
+     padding-bottom: 13px;
+     padding-left: 30px;
+     padding-right: 30px;
+     text-transform: uppercase;
+     transition: 0.3s ease;
+     cursor: pointer;
+ }
+
+ button:hover{
+     color: green;
+     background-color:white;
+ }
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Featured categories--*/
+
+
+
+
+footer{
+    background-color:rgb(8, 48, 2);
+    padding-bottom: 50px;
+
+}
+
+footer h6{
+
+    color: #d8d8d8;
+    font-weight: 700;
+    
+}
+
+footer p{
+    color: #999;
+    font-weight: 700;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+
+}
+
+
+footer li a:hover{
+    color: #d8d8d8;
+    
+}
+
+.footer-1 p:hover{
+    color: #d8d8d8;
+    text-decoration: underline;
+}
+
+
+.copyright a{
+
+   
+    padding-left: 40px;
+    transition: 00.3s ease;
+}
+
+
+
+.copyright a:hover{
+
+    color: coral;
+}
+
+
+
+.footer-1 h5{
+    color: #d8d8d8;
+}
+
+
+
+
+
+
